@@ -1,0 +1,28 @@
+---
+label: Reviews
+hide_body: false
+is_partial: true
+display_field: titre
+fields:
+- type: text
+  name: titre
+  label: Titre
+- type: field_group_list
+  name: reviews
+  label: Reviews
+  config:
+    min: '1'
+  fields:
+  - type: text
+    label: titre
+    name: titre
+    config:
+      required: true
+  - type: text
+    name: sous_titre
+    label: sous titre
+    config:
+      required: false
+  - type: file
+    name: logo
+    label: logo
