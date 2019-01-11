@@ -97,4 +97,5 @@ fields:
   name: md
 pages:
 - test-landing.md
+- tes-with-robin.md
 - index.md
