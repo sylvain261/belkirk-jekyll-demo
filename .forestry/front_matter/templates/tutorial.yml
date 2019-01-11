@@ -1,0 +1,17 @@
+---
+label: Tutorial
+hide_body: false
+is_partial: true
+display_field: titre
+fields:
+- type: text
+  name: youtube_video_embed_
+  label: 'Youtube Video Embed '
+- type: textarea
+  name: titre
+  label: Titre
+  default: Tutorial
+- type: text
+  name: texte
+  label: Texte
+  default: Pour réaliser....
