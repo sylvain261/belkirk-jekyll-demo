@@ -85,6 +85,13 @@ fields:
   template_types:
   - reviews
   - tutorial
+- type: textarea
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: MD
+  name: md
 pages:
 - test-landing.md
 - index.md
