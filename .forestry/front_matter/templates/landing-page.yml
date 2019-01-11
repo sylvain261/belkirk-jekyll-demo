@@ -82,5 +82,7 @@ fields:
 - type: blocks
   name: block1
   label: Block1
+  template_types:
+  - tutorial
 pages:
 - index.md
