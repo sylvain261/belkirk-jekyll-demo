@@ -79,5 +79,8 @@ fields:
   type: text
   hidden: true
   default: home
+- type: blocks
+  name: block1
+  label: Block1
 pages:
 - index.md
