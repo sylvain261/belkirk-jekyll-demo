@@ -83,6 +83,7 @@ fields:
   name: block1
   label: Block1
   template_types:
+  - reviews
   - tutorial
 pages:
 - index.md
