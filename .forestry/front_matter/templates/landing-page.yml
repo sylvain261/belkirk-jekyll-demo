@@ -79,6 +79,9 @@ fields:
   type: text
   hidden: true
   default: home
+- type: text
+  name: aaaa
+  label: aaaa
 - type: blocks
   name: block1
   label: Block1
