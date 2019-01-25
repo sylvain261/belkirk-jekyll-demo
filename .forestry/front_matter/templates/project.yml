@@ -27,3 +27,8 @@ fields:
   type: text
   hidden: false
   default: ''
+- type: text
+  name: mon_nouveau_champ_texte
+  label: mon nouveau champ texte
+  config:
+    required: false
