@@ -32,3 +32,11 @@ fields:
   label: mon nouveau champ texte
   config:
     required: false
+- type: textarea
+  name: tesrt_s
+  label: tesrt s
+  config:
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  default: "<p></p>"
