@@ -34,9 +34,19 @@ fields:
     required: false
 - type: textarea
   name: tesrt_s
-  label: tesrt s
+  label: test inlineHTML
   config:
     wysiwyg: true
     schema:
       format: html-blocks
   default: "<p></p>"
+- type: textarea
+  name: test_html
+  label: test HTML
+  config:
+    wysiwyg: true
+    schema:
+      format: html-blocks
+- type: textarea
+  name: test_notwys
+  label: test notWYS
